@@ -1,5 +1,5 @@
 import { BiGlobe } from 'react-icons/bi'
-import { RiRiUser3FillUser, RiUser3Fill, RiUserAddFill} from 'react-icons/ri'
+import { RiUser3Fill, RiUserAddFill} from 'react-icons/ri'
 
 export default function Header() {
   return (
@@ -17,7 +17,6 @@ export default function Header() {
               <RiUser3Fill size={20} />
               Giris Yap</a>
             <a className="text-white gap-x-2 flex items-center text-opacity-80 taransition-all hover:text-opacity-100" href="#">
-              
               <RiUserAddFill size={20} />
               Kayit Ol</a>         
           </nav>
