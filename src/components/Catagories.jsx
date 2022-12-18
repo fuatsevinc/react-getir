@@ -1,37 +1,24 @@
-import Slider from "react-slick";
-
+import { useEffect, useState } from "react";
+import categoryData from 'api/categories.json';
+import Category from "./ui/Category";
 
 export default function Catagories() {
-    const settings = {
-      dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
+     
+    const [ categories, setCategories] = useState([]);
+    
+    useEffect (() => {
+      setCategories(categoryData);
+    }, [])
+
     return (
-      <div>
-        <h2> Single Item</h2>
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+      <div className="bg-white py-4">
+        <div className="container mx-auto">
+          <h3 className="text-sm font-semibold mb-3"> Kategoriler</h3>
+          <div className="grid grid-cols-10">
+            {categories && categories.map((category, index) => <Category key={index} category={category} />)}
           </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
+        </div>
+       
       </div>
     )
   }

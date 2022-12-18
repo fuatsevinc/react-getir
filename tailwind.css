@@ -9,6 +9,6 @@
 @layer base{
     html, body{ 
         font-family: 'Open-sans', sans-serif;
-        @apply antialiased
+        @apply antialiased bg-purple-50
     }
 }
