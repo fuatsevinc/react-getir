@@ -421,7 +421,7 @@ video {
 html, body{
   font-family: 'Open-sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale
 }
 
 *, ::before, ::after {
@@ -599,6 +599,10 @@ html, body{
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -665,6 +669,26 @@ html, body{
   --tw-text-opacity: 0.8;
 }
 
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:z-10::before {
+  content: var(--tw-content);
+  z-index: 10;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.before\:w-full::before {
+  content: var(--tw-content);
+  width: 100%;
+}
+
 .before\:bg-primary-brand-color::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -674,6 +698,11 @@ html, body{
 .before\:bg-gradient-to-r::before {
   content: var(--tw-content);
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.before\:to-transparent::before {
+  content: var(--tw-content);
+  --tw-gradient-to: transparent;
 }
 
 .hover\:text-opacity-100:hover {

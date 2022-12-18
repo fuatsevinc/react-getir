@@ -18,7 +18,7 @@ export default function Header() {
               Giris Yap</a>
             <a className="text-white gap-x-2 flex items-center text-opacity-80 taransition-all hover:text-opacity-100" href="#">
               <RiUserAddFill size={20} />
-              Kayit Ol</a>         
+              Kayit Ol</a>        
           </nav>
         </div>
     </div>
