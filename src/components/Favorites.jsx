@@ -4,7 +4,7 @@ import Category from "./ui/Category";
 
 export default function Favorites() {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 300,
     arrows: false,
