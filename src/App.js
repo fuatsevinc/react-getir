@@ -1,17 +1,18 @@
 import Header from './components/Header'
-import HeroSection from './components/HeroSection'
 import Catagories from './components/Catagories'
 import Campaigns from './components/Campaigns'
 import Favorites from './components/Favorites'
 import Mobileapp from './components/Mobileapp'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
+import Slider from "rc-slider";
+import SimpleSlider from './components/SimpleSlider'
 
 function App() {
   return (
     <>
     <Header />
-    <HeroSection />
+    <SimpleSlider />
     <Catagories />
     <Campaigns />
     <Favorites />
