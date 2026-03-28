@@ -1,4 +1,56 @@
-# Getting Started with Create React App
+# React Getir Clone
+
+> A Getir-inspired grocery delivery app clone built with React and Tailwind CSS.
+
+## About
+
+React Getir is a frontend clone of the Getir grocery delivery application, built as a learning project to practice React development, component architecture, and Tailwind CSS styling. The project replicates the core UI of the popular delivery app.
+
+## Features
+
+- Getir-inspired UI design
+- React component-based architecture
+- Tailwind CSS styling
+- Responsive layout
+- Product listing and category navigation
+
+## Technologies Used
+
+| Technology | Usage |
+|------------|-------|
+| React | Frontend framework |
+| Tailwind CSS | Utility-first styling |
+| JavaScript | Application logic |
+| CSS3 | Additional styles |
+
+## Getting Started
+
+1. Clone the repository:
+   git clone https://github.com/fuatsevinc/react-getir.git
+
+2. Navigate into the project directory:
+   cd react-getir
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm start
+
+5. Open http://localhost:3000 in your browser.
+
+## Build
+
+To build for production:
+   npm run build
+
+## License
+
+All rights reserved © fuatsevinc
+
+---
+
+Developed by [fuatsevinc](https://github.com/fuatsevinc)# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
